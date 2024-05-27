@@ -140,3 +140,28 @@ function resetState() {
     }
     document.getElementById('next-button').style.display = 'none';
 }
+
+// Function to handle answer selection
+function selectAnswer(e) {
+    const selectedButton = e.target;
+    const correct = selectedButton.dataset.correct === 'true';
+    if (correct) {
+        score++;
+    }
+    Array.from(document.getElementById('answers').children).forEach(button => {
+        setStatusClass(button, button.dataset.correct);
+    });
+    if (questions.length > currentQuestionIndex + 1) {
+        document.getElementById('next-button').style.display = 'block';
+    } else {
+        document.getElementById('result-section').style.display = 'block';
+        document.getElementById('score').innerText = `You got ${score} out of ${questions.length} questions correct!`;
+        document.getElementById('quiz-section').style.display = 'none';
+    }
+}
+
+// Function to clear the status class
+function clearStatusClass(element) {
+    element.classList.remove('correct');
+    element.classList.remove('incorrect');
+}
