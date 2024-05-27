@@ -176,3 +176,16 @@ function clearStatusClass(element) {
     element.classList.remove('incorrect');
 }
 
+// Function to go to the next question
+function nextQuestion() {
+    currentQuestionIndex++;
+    showQuestion();
+}
+
+// Function to restart the quiz
+function restartQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+    document.getElementById('result-section').style.display = 'none';
+    document.getElementById('intro').style.display = 'block';
+}
