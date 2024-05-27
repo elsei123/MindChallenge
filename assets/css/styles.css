@@ -33,3 +33,34 @@ main {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Question Styles */
+#question {
+    margin-bottom: 1em;
+}
+
+/* Answer Button Styles */
+#answers button {
+    display: block; 
+    width: 100%;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#answers button:hover {
+    background-color: #45a049;
+}
+
+/* Next and Restart Button Styles */
+#next-button, #restart-button {
+    background-color: #008CBA;
+}
+
+#next-button:hover, #restart-button:hover {
+    background-color: #007bb5;
+}
