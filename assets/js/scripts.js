@@ -100,3 +100,23 @@ let questions = [
         ]
     }
 ];
+
+// Function to start the quiz
+function startQuiz() {
+    const username = document.getElementById('username').value;
+    if (username === '') {
+        alert('Please enter a username.');
+        return;
+    }
+    document.getElementById('intro').style.display = 'none';
+    document.getElementById('quiz-section').style.display = 'block';
+    showQuestion();
+}
+
+// Function to display the current question and answers
+function showQuestion() {
+    resetState();
+    const questionData = questions[currentQuestionIndex];
+    const questionElement = document.getElementById('question');
+    const answersElement = document.getElementById('answers');
+    questionElement.innerText = questionData.question;
