@@ -120,3 +120,23 @@ function showQuestion() {
     const questionElement = document.getElementById('question');
     const answersElement = document.getElementById('answers');
     questionElement.innerText = questionData.question;
+
+    questionData.answers.forEach(answer => {
+        const button = document.createElement('button');
+        button.innerText = answer.text;
+        button.classList.add('answer-btn');
+        if (answer.correct) {
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener('click', selectAnswer);
+        answersElement.appendChild(button);
+    });
+}
+
+// Function to reset the state for the next question
+function resetState() {
+    while (document.getElementById('answers').firstChild) {
+        document.getElementById('answers').removeChild(document.getElementById('answers').firstChild);
+    }
+    document.getElementById('next-button').style.display = 'none';
+}
