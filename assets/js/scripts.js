@@ -160,8 +160,19 @@ function selectAnswer(e) {
     }
 }
 
+// Function to set the status class based on whether the answer is correct
+function setStatusClass(element, correct) {
+    clearStatusClass(element);
+    if (correct) {
+        element.classList.add('correct');
+    } else {
+        element.classList.add('incorrect');
+    }
+}
+
 // Function to clear the status class
 function clearStatusClass(element) {
     element.classList.remove('correct');
     element.classList.remove('incorrect');
 }
+
