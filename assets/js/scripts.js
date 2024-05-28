@@ -12,17 +12,17 @@ let questions = [
     {
         question: "What is the capital of France?",
         answers: [
-            { text: "Paris", correct: true },
             { text: "London", correct: false },
             { text: "Berlin", correct: false },
+            { text: "Paris", correct: true },
             { text: "Madrid", correct: false }
         ]
     },
     {
         question: "Who wrote 'Don Quixote'?",
         answers: [
-            { text: "Miguel de Cervantes", correct: true },
             { text: "Gabriel Garcia Marquez", correct: false },
+            { text: "Miguel de Cervantes", correct: true },
             { text: "William Shakespeare", correct: false },
             { text: "Jorge Luis Borges", correct: false }
         ]
@@ -39,10 +39,10 @@ let questions = [
     {
         question: "What is the chemical symbol for water?",
         answers: [
-            { text: "H2O", correct: true },
+            { text: "H2", correct: false },
             { text: "O2", correct: false },
             { text: "CO2", correct: false },
-            { text: "H2", correct: false }
+            { text: "H2O", correct: true }
         ]
     },
     {
@@ -57,8 +57,8 @@ let questions = [
     {
         question: "What is the hardest natural substance on Earth?",
         answers: [
-            { text: "Diamond", correct: true },
             { text: "Gold", correct: false },
+            { text: "Diamond", correct: true },
             { text: "Iron", correct: false },
             { text: "Platinum", correct: false }
         ]
@@ -66,10 +66,10 @@ let questions = [
     {
         question: "What is the smallest prime number?",
         answers: [
-            { text: "2", correct: true },
+            { text: "0", correct: false },
             { text: "3", correct: false },
             { text: "1", correct: false },
-            { text: "0", correct: false }
+            { text: "2", correct: true },
         ]
     },
     {
@@ -82,7 +82,7 @@ let questions = [
         ]
     },
     {
-        question: "Who developed the theory of relativity?",
+    question: "Who developed the theory of relativity?",
         answers: [
             { text: "Albert Einstein", correct: true },
             { text: "Isaac Newton", correct: false },
@@ -91,10 +91,10 @@ let questions = [
         ]
     },
     {
-        question: "What is the capital of Japan?",
+    question: "What is the capital of Japan?",
         answers: [
-            { text: "Tokyo", correct: true },
             { text: "Kyoto", correct: false },
+            { text: "Tokyo", correct: true },
             { text: "Osaka", correct: false },
             { text: "Nagoya", correct: false }
         ]
