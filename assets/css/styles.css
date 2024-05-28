@@ -1,11 +1,3 @@
-/* media */
-@media (max-width: 600px) {
-    main {
-        width: 90%;
-        margin: 1em auto;
-        padding: 1em;
-    }
-}
 
 /* Global Styles */
 body {
@@ -82,3 +74,13 @@ main {
     background-color: #007bb5; /* Darker blue background on hover */
 }
 
+/* Footer Styles */
+footer {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    text-align: center; /* Centers the text */
+    padding: 1em 0; /* Adds padding to top and bottom */
+    position: fixed; /* Fixes the footer at the bottom */
+    bottom: 0; /* Positions at the bottom */
+    width: 100%; /* Full width */
+}
