@@ -7,6 +7,8 @@ The application is designed with a focus on user experience (UX) and accessibili
 <img width="1004" alt="Captura de ecrã 2024-05-28, às 03 23 31" src="https://github.com/elsei123/MindChallenge/assets/164704332/56d886d8-fc9f-47d3-868c-8e58f3f611ab">
 
 
+
+
 ## Key Features:
 
 __Interactive Quiz:__
@@ -45,6 +47,8 @@ __Header__
 <img width="681" alt="Captura de ecrã 2024-05-28, às 03 18 44" src="https://github.com/elsei123/MindChallenge/assets/164704332/128d323a-bd82-4506-a66f-6e4983245465">
 
 
+
+
 __Footer__
 
 - The footer section has a clear message to the user wishing them good luck
@@ -65,6 +69,9 @@ __Quiz Introduction Section__
   
 <img width="692" alt="Captura de ecrã 2024-05-28, às 03 19 11" src="https://github.com/elsei123/MindChallenge/assets/164704332/fcdecf06-8739-4bd4-85a3-1e227a9c21d1">
 
+
+
+
 __Responsiveness__ 
 
 - The design is responsive, ensuring the application works well on devices of different screen sizes, including desktops, tablets, and smartphones.
@@ -78,16 +85,18 @@ __Quiz Screen:__
 <img width="749" alt="Captura de ecrã 2024-05-28, às 03 19 29" src="https://github.com/elsei123/MindChallenge/assets/164704332/234fbf40-da16-4ab3-9011-51c32997cc5f">
 
 
+
+
 __Feedback:__
 
 - After selecting an answer, immediate feedback is given. Correct answers turn the button green, while incorrect answers turn the button red.
 
-  <img width="721" alt="Captura de ecrã 2024-05-28, às 03 19 39" src="https://github.com/elsei123/MindChallenge/assets/164704332/b28c0e14-c669-490b-9d11-dd6b903b140e">
-
-
 __Next Question:__
 
 - Users proceed to the next question by clicking the "Next Question" button.
+
+ <img width="721" alt="Captura de ecrã 2024-05-28, às 03 19 39" src="https://github.com/elsei123/MindChallenge/assets/164704332/b28c0e14-c669-490b-9d11-dd6b903b140e">
+
 
   
 __Results Screen:__
