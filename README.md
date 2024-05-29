@@ -148,7 +148,7 @@ __Results Screen:__
 
 - Credits go to the learning people ebook on the structure of the database 
 
-- Credits for help in creating the project skeleton goes to codecadmy for the extra javascritps classes
+- Credits for help in creating the project skeleton of JavaScript goes to codecadmy for the extra javascritp classes
 
 ## Validation
 
