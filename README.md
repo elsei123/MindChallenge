@@ -4,6 +4,8 @@ Mind Challenge is an interactive web application designed to test users' knowled
 
 The application is designed with a focus on user experience (UX) and accessibility. It ensures that users of all ages and abilities can navigate and interact with the quiz effortlessly. The user interface (UI) is clean, intuitive, and responsive, adapting to different screen sizes to provide an optimal experience on desktops, tablets, and mobile devices.
 
+<img width="1004" alt="Captura de ecrã 2024-05-28, às 03 23 31" src="https://github.com/elsei123/MindChallenge/assets/164704332/56d886d8-fc9f-47d3-868c-8e58f3f611ab">
+
 
 ## Key Features:
 
@@ -40,19 +42,28 @@ __Header__
 
 - The header is prominently located at the top of the page and displays the game name "Mind Challenge" in a large, readable font that contrasts well with the background. This ensures the title is easily visible and immediately informs the user of the application's purpose.
 
+<img width="681" alt="Captura de ecrã 2024-05-28, às 03 18 44" src="https://github.com/elsei123/MindChallenge/assets/164704332/128d323a-bd82-4506-a66f-6e4983245465">
+
+
 __Footer__
 
 - The footer section has a clear message to the user wishing them good luck
+
+  <img width="939" alt="Captura de ecrã 2024-05-28, às 03 20 22" src="https://github.com/elsei123/MindChallenge/assets/164704332/b9c36d38-acdf-4b98-839e-ba89e3ff6ae5">
+
 
 __Quiz Introduction Section__
 
 - This section serves as the starting point for users. It includes a brief introduction to the quiz and a field for the user to enter their username.
 
-- A "<label>" element for the username input field ensures accessibility and provides clear instructions.
+- A "label" element for the username input field ensures accessibility and provides clear instructions.
 
-- An "<input>" field allows users to enter their username.
+- An "input" field allows users to enter their username.
 
-- A "Start Quiz" button "(<button>)" is provided to initiate the quiz. This button has an associated event listener to handle the click event and start the quiz.
+- A "Start Quiz" button "(button)" is provided to initiate the quiz. This button has an associated event listener to handle the click event and start the quiz.
+
+  
+<img width="692" alt="Captura de ecrã 2024-05-28, às 03 19 11" src="https://github.com/elsei123/MindChallenge/assets/164704332/fcdecf06-8739-4bd4-85a3-1e227a9c21d1">
 
 __Responsiveness__ 
 
@@ -64,12 +75,15 @@ __Quiz Screen:__
 
 - Users answer a series of questions presented one at a time. Each question comes with multiple answer choices. Users select an answer by clicking on a button.
 
+<img width="749" alt="Captura de ecrã 2024-05-28, às 03 19 29" src="https://github.com/elsei123/MindChallenge/assets/164704332/234fbf40-da16-4ab3-9011-51c32997cc5f">
+
 
 __Feedback:__
 
 - After selecting an answer, immediate feedback is given. Correct answers turn the button green, while incorrect answers turn the button red.
 
-  
+  <img width="721" alt="Captura de ecrã 2024-05-28, às 03 19 39" src="https://github.com/elsei123/MindChallenge/assets/164704332/b28c0e14-c669-490b-9d11-dd6b903b140e">
+
 
 __Next Question:__
 
@@ -80,6 +94,7 @@ __Results Screen:__
 
 - Upon completing the quiz, users are presented with their final score and an option to restart the quiz for another attempt.
   
+<img width="642" alt="Captura de ecrã 2024-05-29, às 03 40 57" src="https://github.com/elsei123/MindChallenge/assets/164704332/83a2e01d-6ed3-4b10-8f4d-7d05ad0f26c8">
 
 ### Features Left to Implement
 
@@ -101,6 +116,10 @@ __Results Screen:__
 - Verified that the header, instructions, options, results, and footer text are all readable and easy to understand.
 
 - Confirmed that the chosen colors and fonts are easy to read and accessible by running it through Lighthouse in DevTools.
+
+
+  <img width="584" alt="Captura de ecrã 2024-05-28, às 03 18 30" src="https://github.com/elsei123/MindChallenge/assets/164704332/5387e0a1-6732-48a3-85f1-96297f45406f">
+
 
 ## Bug Fixes
 
